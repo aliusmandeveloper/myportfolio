@@ -32,6 +32,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  cb
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,7 +52,7 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Mobile Application Developer",
     icon: web,
   },
   {
@@ -63,7 +64,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -125,50 +126,49 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Front-end Developer",
+    companyName: "Crowdbotics",
+    icon: cb,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2023 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Expertise in frontend technologies and mobile app development frameworks.",
+      "Collaborates with cross-functional teams on designing, developing, and deploying innovative solutions.",
+      "Optimizes app performance and ensures seamless integration of features.",
+      "Committed to delivering high-quality solutions that drive user engagement and enhance overall user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Sr. Mobile Application Developer",
+    companyName: "V3 Solution",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Expertise in React Native for mobile app development with proficiency in MongoDB, Express.js, and Node.js for backend technologies",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Front-end mobile app developer",
+    companyName: "V3 Solution",
+    icon: tesla,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2021 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specialized in front-end design, particularly using React Native.",
+      "Focused on crafting visually appealing and user-friendly mobile applications.",
+      "Collaborated closely with UX/UI designers to translate design concepts into engaging and responsive user interfaces for iOS and Android platforms.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "My Resume",
+    companyName: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

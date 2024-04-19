@@ -66,6 +66,26 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
           ))}
+          <VerticalTimelineElement
+      contentStyle={{
+        background: "#1d1836",
+        color: "#fff",
+      }}
+      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      iconStyle={{ background: '#E6DEDD' }}
+      icon={
+        <div className="flex h-full w-full items-center justify-center tracking-wider">
+          {/* <img
+            src={experience.icon}
+            alt={experience.companyName}
+            className="h-[60%] w-[60%] object-contain"
+          /> */}
+        </div>
+      }
+    >
+      
+
+    </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>
