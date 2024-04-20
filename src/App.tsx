@@ -4,12 +4,12 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  // Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
+  // StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";

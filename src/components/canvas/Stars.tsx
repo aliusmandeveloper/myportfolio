@@ -2,7 +2,8 @@ import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import { random } from "maath";
-import { TypedArray } from "three";
+import { TypedArray } from "three"; // Import TypedArray from 'three'
+import * as THREE from "three"; 
 
 const Stars = (props: any) => {
   const ref = useRef<THREE.Points>();
