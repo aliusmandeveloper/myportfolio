@@ -95,20 +95,12 @@ const technologies: TTechnology[] = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -121,6 +113,14 @@ const technologies: TTechnology[] = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "postgresql",
+    icon: threejs,
+  },
+  {
+    name: "Firebase",
+    icon: tailwind,
   },
 ];
 
@@ -163,19 +163,7 @@ const experiences: TExperience[] = [
       "Collaborated closely with UX/UI designers to translate design concepts into engaging and responsive user interfaces for iOS and Android platforms.",
     ],
   },
-  {
-    title: "My Resume",
-    companyName: "",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials: TTestimonial[] = [
