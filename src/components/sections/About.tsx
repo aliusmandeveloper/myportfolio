@@ -43,7 +43,8 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
   </Tilt>
 );
 
-const About = () => {
+const About = ({ref}:any) => {
+  
   return (
     <>
       <Header useMotion={true} {...config.sections.about} />
@@ -55,7 +56,7 @@ const About = () => {
         {config.sections.about.content}
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
+      <div ref={ref} className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

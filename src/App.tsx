@@ -13,7 +13,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
-import { ToastContainer } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
 
 const App = () => {
   useEffect(() => {
@@ -29,7 +29,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <ToastContainer />
+        {/* <ToastContainer /> */}
         <About />
         <Experience />
         <Tech />
@@ -37,7 +37,7 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
+          {/* {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

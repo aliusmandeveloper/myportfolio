@@ -32,7 +32,9 @@ import {
   jobit,
   tripguide,
   threejs,
-  cb
+  cb,
+  koponx,
+  GS
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -195,67 +197,106 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Fundgazer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Fundgazer now and revolutionize your stock trading experience for a brighter financial future!",
     tags: [
       {
-        name: "react",
+        name: "React-Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react-native-reanimated",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Redux-Toolkit",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://vimeo.com/937254531?share=copy",
   },
   {
-    name: "Job IT",
+    name: "Yellowstone Boys & Girls Ranch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Yellowstone Boys and Girls Ranch, a nonprofit organization, is trusted locally and nationally as a leader in the field of mental health care for children and their families.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://vimeo.com/937263159?share=copy",
   },
   {
-    name: "Trip Guide",
+    name: "Prestamode",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Prestamode is a mobile application facilitating appointment booking with barbers and in-app chat functionality.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://vimeo.com/937254531?share=copy",
+  },
+  {
+    name: "GS Logistic",
+    description:
+      "We offer seamless international shipping services, allowing customers to order products from one country with secure payment options ensuring a smooth transaction process and have them delivered globally.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: GS,
+    sourceCodeLink: "https://vimeo.com/937335928?share=copy",
+  },
+  {
+    name: "KoponX",
+    description:
+      "KoponX simplifies coupon management for diverse product brands. Admins easily upload, update, and organize discounts, ensuring customers access the latest promotions seamlessly. Boost customer engagement and satisfaction with exclusive deals across a wide array of brands.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+     
+    ],
+    image: koponx,
+    sourceCodeLink: "https://vimeo.com/937364413?share=copy",
   },
 ];
 

@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./AR.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,6 +31,9 @@ import cb from "./company/cb.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import GS from "./GS.png"
+import profile from './profile.png'
+import koponx from './Koponx.jpg'
 
 export {
   logo,
@@ -61,5 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  cb
+  cb,
+  GS,
+  profile,
+  koponx
 };

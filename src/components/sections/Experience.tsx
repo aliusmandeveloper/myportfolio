@@ -50,7 +50,7 @@ const ExperienceCard: React.FC<TExperience> = experience => {
   );
 };
 
-const Experience = () => {
+const Experience = ({refs}:any) => {
   return (
     <>
       <Header useMotion={true} {...config.sections.experience} />
@@ -68,7 +68,7 @@ const Experience = () => {
             contentArrowStyle={{ borderRight: '7px solid  #232631' }}
             iconStyle={{ background: '#383E56' }}
             icon={
-              <div className="flex h-full w-full items-center justify-center tracking-wider">
+              <div ref={refs} className="flex h-full w-full items-center justify-center tracking-wider">
                 <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADvUlEQVR4nO2dy0sVURzHjwnWqiyISHehLSzCRVC00B4WRO1koH+gFla6rE3ULjDJVq6K1qHZAyqDzJa1CMxemxZlYY9N2mOj0CcOjnGFdF73en/nnN8HZuc932E+zj0zv/O7M8YoiqIoiqIojgBsANqByNOtHVhvpANsBW4Cc/jPHDAENBuJAIeAH4THDNBhBJ4ZIcooldJkpAAM/9u1cBk0gibwEOaMJGZFTPTAvsRdDYd2CUI6q30UBNEpQYi9LlfmiartQ4UEIuQX8By4F2/vcQPvhDwDjgJrlpirppCNV0LOAasSslqAaeTijZCLGTP3AC+RhxdC3gJ1OXI3Ap+RhRdCugpk9yAL54X8sf/pBbI3xWNIwXkh78qQ/wE5OC/kURnynyIH54XcKkP+HeTgvJDRMuSPIgfnhXwDagrmTyEH54VYdhXI3oksnBfyHWgskN0orJTivJCxMuQ/yZF7La6L1S4z7mbgZMbmDeeFTJYh/2PGzKsZxz+Y4ebTeSGWAwWyO3LkteTIeROSkJ95mgOYb+e0n83K2hxZD0MSYhnIkTuQMytTlyGwGvgampDfWa62mL+6sp/JwwRQnzKnBricYWxvhFjuprlJjA+S/dsifAIuAMeW6XDvyXEF55UQS2+KvF7k4p2QVynyJC7dLqBChOGdkPEUeePIxTshZ1LknUUu3gixpYn+5WpLJXm1wBVk4rwQK+J+nhI8sBt4kLPJYRI4n3DZ2w08DknICNBahvzWDKUNywtgXcqx7T1Pn+9C5or0Yi0FcCrlL7kyFTNtE5/vpZPjFdyXEynytbhYwnClZCwA3E4QouX3ErabCgPsSBByPeN49ucR+PiVNbGC+zSRJAXYlrCE2wCczrjm4pSQEIiq7UOFLEaFCEOFCEOFCEOFCEOFCEOFCEOFCEOFCMM5IfZReF22s9wIh0C63w8bx8Dj7vfEniup+Nr9PmIcBU+737/keaZJtfG9+72v6K9uV5JQut/H4s7ySPjWo93v7uPkGeIzUbV9qJDFqBBhqBBhqBBhOClkNO4sj4Rv3SF0v19y8Mawz1chrpZO6nwtnWhxUZiQ18ZR8LT8bjliHAOPu9+Jl0PtsmiDEQ7a/e4Fzp0hvhNV24cKWYwKEYYKEYYKEYYIIfpiSWEvltxbskOh0yZBSH38Yt7QmRXxcmILMFTtoyGAG0YKQHPc2R4q08AWI4n4sd8zgcrYbyQCNAGDgcwps/ZrStyZ8T/s5GavOASsi0cV2trSPh1bURRFURRFMQL4C6b7/Ri1ZZoBAAAAAElFTkSuQmCC"
                   alt="my-resume"

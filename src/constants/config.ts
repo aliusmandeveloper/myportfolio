@@ -13,6 +13,8 @@ type TConfig = {
   hero: {
     name: string;
     p: string[];
+    linkedIn : string,
+    github:string,
   };
   contact: {
     form: {
@@ -41,13 +43,15 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'Awais',
+    title: 'Muhammad Awais Raza',
     fullName: 'Muhammad Awais Raza',
     email: 'razaaw3@mail.com',
   },
   hero: {
     name: 'Awais',
     p: ['In the realm of programming,', 'innovation knows no bounds.'],
+    linkedIn:'https://www.linkedin.com/in/razaaw3',
+    github:'https://github.com/Razaaw3/',
   },
   contact: {
     p: 'Get in touch',
