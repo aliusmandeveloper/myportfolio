@@ -301,3 +301,14 @@ const projects: TProject[] = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
+
+
+
+
+
+
+
+
+
+
