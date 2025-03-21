@@ -534,7 +534,7 @@ const projects: TProject[] = [
       },
     ],
     image: flex,
-    sourceCodeLink: '',
+    sourceCodeLink: 'https://flexiva-v2.vercel.app/',
   },
 ];
 
