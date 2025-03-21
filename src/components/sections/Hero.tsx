@@ -38,7 +38,7 @@ const Hero = () => {
       <a href={config.hero.github} target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-purple-600">
         <FaGithub className="text-white text-3xl" />
       </a>
-      <a href='/abdul.pdf' download={'abdul.pdf'}
+      <a href='/Abdul_Rafay_Resume.pdf' download={'Abdul_Rafay_Resume.pdf'}
 
   className="inline-flex cursor-pointer items-center  rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100"
 >

@@ -330,6 +330,35 @@ const projects: TProject[] = [
     image: koponx,
     sourceCodeLink: "https://www.digitalsearchgroup.co.uk/",
   },
+  {
+    name: "SEOHub222",
+    description:
+      "SEOHub is a comprehensive MERN Stack solution designed to automate SEO processes, enabling businesses to generate keywords and optimize pages efficiently. ",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: koponx,
+    sourceCodeLink: "https://www.digitalsearchgroup.co.uk/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
