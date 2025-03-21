@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import hukul from './hukul.png';
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -13,6 +14,8 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import aws from "./tech/aws.png";
+import vs from "./tech/vs.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -27,7 +30,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/v3.png";
 import cb from "./company/cb.png"
-
+import adz from "./company/adz.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,10 +40,14 @@ import koponx from './Koponx.jpg'
 
 export {
   logo,
+  adz,
+  aws,
+  vs,
   backend,
   creator,
   mobile,
   web,
+  hukul,
   github,
   menu,
   close,

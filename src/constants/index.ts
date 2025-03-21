@@ -12,6 +12,8 @@ import {
   backend,
   creator,
   web,
+  adz,
+  hukul,
   javascript,
   typescript,
   html,
@@ -23,6 +25,8 @@ import {
   mongodb,
   git,
   figma,
+  aws,
+  vs,
   docker,
   meta,
   // starbucks,
@@ -132,6 +136,18 @@ const technologies: TTechnology[] = [
     name: "meta",
     icon: meta,
   },
+  {
+    name: "hukul",
+    icon: hukul,
+  },
+  {
+    name: "aw",
+    icon: aws,
+  },
+  {
+    name: "vs",
+    icon: vs,
+  },
 ];
 
 const experiences: TExperience[] = [
@@ -164,7 +180,7 @@ const experiences: TExperience[] = [
   {
     title: "MERN Stack Developer",
     companyName: "Adziyo",
-    icon: tesla,
+    icon: adz,
     iconBg: "#383E56",
     date: "2025 - present",
     points: [
