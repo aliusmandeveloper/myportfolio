@@ -24,19 +24,19 @@ import {
   git,
   figma,
   docker,
-  // meta,
+  meta,
   // starbucks,
   tesla,
-  // shopify,
+  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
   cb,
   koponx,
-  GS
+  GS,
+  // hukul,
 } from "../assets";
-
 export const navLinks: TNavLink[] = [
   {
     id: "about",
@@ -54,19 +54,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Mobile Application Developer",
+    title: "MERN Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Next.js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI Developer",
     icon: backend,
   },
   {
-    title: "UI/UX Design",
+    title: "Python AI Integrations Expert",
     icon: creator,
   },
 ];
@@ -124,45 +124,54 @@ const technologies: TTechnology[] = [
     name: "Firebase",
     icon: tailwind,
   },
+  {
+    name: "shopify",
+    icon: shopify,
+  },
+  {
+    name: "meta",
+    icon: meta,
+  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "Front-end Developer",
-    companyName: "Crowdbotics",
+    title: "MERN Stack Developer",
+    companyName: "Dzone Technologies",
     icon: cb,
     iconBg: "#383E56",
-    date: "Sep 2023 - present",
+    date: "2023-2024",
     points: [
-      "Expertise in frontend technologies and mobile app development frameworks.",
-      "Collaborates with cross-functional teams on designing, developing, and deploying innovative solutions.",
-      "Optimizes app performance and ensures seamless integration of features.",
-      "Committed to delivering high-quality solutions that drive user engagement and enhance overall user experience.",
+      "Specialized in building scalable web applications using the MERN stack.",
+      "Collaborated with cross-functional teams to design, develop, and deploy innovative solutions.",
+      "Optimized backend performance and ensured seamless API integrations.",
+      "Focused on delivering high-quality, user-centric solutions to enhance overall web experiences.",
     ],
   },
   {
-    title: "Sr. Mobile Application Developer",
-    companyName: "V3 Solution",
+    title: "Middle-level Backend Developer",
+    companyName: "WebXpert",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - present",
+    date: "2023 - Present",
     points: [
-      "Expertise in React Native for mobile app development with proficiency in MongoDB, Express.js, and Node.js for backend technologies",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-platform compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Experience in developing backend services using Node.js for efficient and scalable web applications.",
+      "Collaborated with frontend teams to integrate APIs, ensuring smooth data flow and application performance.",
+      "Designed and optimized databases, implementing RESTful APIs and working with MongoDB to ensure data integrity.",
+      "Contributed to code reviews and team knowledge sharing, fostering a collaborative development environment.",
     ],
   },
   {
-    title: "Front-end mobile app developer",
-    companyName: "V3 Solution",
+    title: "MERN Stack Developer",
+    companyName: "Adziyo",
     icon: tesla,
     iconBg: "#383E56",
-    date: "Dec 2021 - Aug 2022",
+    date: "2025 - present",
     points: [
-      "Specialized in front-end design, particularly using React Native.",
-      "Focused on crafting visually appealing and user-friendly mobile applications.",
-      "Collaborated closely with UX/UI designers to translate design concepts into engaging and responsive user interfaces for iOS and Android platforms.",
+      "Specialized in developing dynamic web applications using the MERN stack.",
+      "Focused on creating scalable and efficient backends while ensuring smooth front-end integration.",
+      "Collaborated with cross-functional teams to design and implement innovative solutions for seamless user experiences.",
+      "Committed to delivering high-performance, user-centric applications that drive business growth.",
     ],
   },
   
@@ -197,12 +206,12 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Fundgazer",
+    name: "Big Star",
     description:
-      "Fundgazer now and revolutionize your stock trading experience for a brighter financial future!",
+      "Big Star is a high-performance MERN Stack Developer project that revolutionizes vehicle exploration.",
     tags: [
       {
-        name: "React-Native",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
@@ -210,103 +219,120 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "react-native-reanimated",
+        name: "Next.js",
         color: "pink-text-gradient",
       },
       {
-        name: "Redux-Toolkit",
+        name: "Express",
         color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://vimeo.com/937245595?share=copy",
+    sourceCodeLink: "http://ec2-54-252-183-45.ap-southeast-2.compute.amazonaws.com:3000/home",
   },
   {
-    name: "Yellowstone Boys & Girls Ranch",
+    name: "Edexcel",
     description:
-      "Yellowstone Boys and Girls Ranch, a nonprofit organization, is trusted locally and nationally as a leader in the field of mental health care for children and their families.",
+      " Edexcel Academy & Educational Consultancy is a premier platform dedicated to empowering students through high-quality education and professional guidance. ",
     tags: [
       {
-        name: "react-native",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "redux",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://vimeo.com/937263159?share=copy",
+    sourceCodeLink: "https://edexceledu.com/",
   },
   {
-    name: "Prestamode",
+    name: "GlowArt",
     description:
-      "Prestamode is a mobile application facilitating appointment booking with barbers and in-app chat functionality.",
+      "GlowArt enables users to export their collection data to an Excel sheet, providing an easy way to organize and analyze their artwork",
     tags: [
       {
-        name: "react-native",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "React.js",
         color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB ",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://vimeo.com/937254531?share=copy",
+    sourceCodeLink: "https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/753024815/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738067297611&type=DOCUMENT",
   },
   {
-    name: "GS Logistic",
+    name: "Pacedream",
     description:
-      "We offer seamless international shipping services, allowing customers to order products from one country with secure payment options ensuring a smooth transaction process and have them delivered globally.",
+      "PaceDream is a revolutionary platform developed by an expert MERN Stack Developer and AI Solutions Developer.",
     tags: [
       {
-        name: "react-native",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "React.js",
         color: "green-text-gradient",
       },
       {
-        name: "redux",
+        name: "Next.js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
       },
     ],
     image: GS,
-    sourceCodeLink: "https://vimeo.com/937335928?share=copy",
+    sourceCodeLink: "https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/692385601/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738008407528&type=DOCUMENT",
   },
   {
-    name: "KoponX",
+    name: "SEOHub",
     description:
-      "KoponX simplifies coupon management for diverse product brands. Admins easily upload, update, and organize discounts, ensuring customers access the latest promotions seamlessly. Boost customer engagement and satisfaction with exclusive deals across a wide array of brands.",
+      "SEOHub is a comprehensive MERN Stack solution designed to automate SEO processes, enabling businesses to generate keywords and optimize pages efficiently. ",
     tags: [
       {
-        name: "react-native",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "React.js",
         color: "green-text-gradient",
       },
-     
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
     ],
     image: koponx,
-    sourceCodeLink: "https://vimeo.com/937364413?share=copy",
+    sourceCodeLink: "https://www.digitalsearchgroup.co.uk/",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
-
-
-
-
-
-
 
 
 

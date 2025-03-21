@@ -43,15 +43,15 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'Muhammad Awais Raza',
-    fullName: 'Muhammad Awais Raza',
-    email: 'razaaw3@mail.com',
+    title: 'Abdul Rafay',
+    fullName: 'Abdul Rafay',
+    email: 'amirrafay135@gmail.com',
   },
   hero: {
-    name: 'Awais',
+    name: 'Rafay',
     p: ['In the realm of programming,', 'innovation knows no bounds.'],
-    linkedIn:'https://www.linkedin.com/in/razaaw3',
-    github:'https://github.com/Razaaw3/',
+    linkedIn:'https://www.linkedin.com/in/abdulrafay-mernstack-developer',
+    github:'https://github.com/AbdulRafayDeveloper',
   },
   contact: {
     p: 'Get in touch',
@@ -72,7 +72,7 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview.',
-      content: `As an experienced Mobile Application Developer, I specialize in creating user-friendly interfaces that enhance user experience. With expertise in MERN stack along with Firebase, I excel in designing, optimizing, and seamlessly providing high-performance backend solutions and elegant mobile app designs. Let's collaborate to bring your mobile app vision to life, focusing on technical excellence and user satisfaction.`,
+      content: `As a skilled MERN stack developer with expertise in MongoDb, Mysql, Firebase, and Supabase, I specialize in crafting intuitive interfaces that enhance user experience. I excel in designing, optimizing, and delivering high-performance backend solutions alongside sleek, responsive web applications. Let's collaborate to turn your vision into reality, focusing on innovation and user satisfaction.`,
     },
     experience: {
       p: 'What I have done so far',
