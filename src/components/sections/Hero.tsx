@@ -1,15 +1,12 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { styles } from "../../constants/styles";
+import { styles } from '../../constants/styles';
 // import { ComputersCanvas } from "../canvas";
-import { config } from "../../constants/config";
-import { FaLinkedin, FaGithub, } from 'react-icons/fa';
-import { profile } from "../../assets";
-
-
+import { config } from '../../constants/config';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { profile } from '../../assets';
 
 const Hero = () => {
-
   return (
     <section className={`relative mx-auto h-screen w-full`}>
       <div
@@ -21,39 +18,50 @@ const Hero = () => {
         </div>
 
         <div className="h-auto">
-          
           <p className={`${styles.heroHeadText}   text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}
           </p>
           <div className="lg:w-[40%] w-full">
-          <h6 className={`${styles.heroSubText} text-white`}>
-            I'm <span className="text-[#915EFF]">{config.hero.name}</span>, a skilled full-stack Mobile Application developer focusing on creating user-friendly and visually appealing UI designs, along with practical backend solutions to drive innovation
-          </h6>
+            <h6 className={`${styles.heroSubText} text-white`}>
+              I'm <span className="text-[#915EFF]">{config.hero.name}</span>, a skilled full-stack
+              Mobile Application developer focusing on creating user-friendly and visually appealing
+              UI designs, along with practical backend solutions to drive innovation
+            </h6>
           </div>
           <div className="flex mt-4 items-center space-x-8">
-      <a href={config.hero.linkedIn} target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-purple-600">
-        <FaLinkedin className="text-white text-3xl" />
-      </a>
-      <a href={config.hero.github} target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-purple-600">
-        <FaGithub className="text-white text-3xl" />
-      </a>
-      <a href='/Abdul_Rafay_Resume.pdf' download={'Abdul_Rafay_Resume.pdf'}
-
-  className="inline-flex cursor-pointer items-center  rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100"
->
-  <span className="text-black text-[12px]">View CV</span>
-</a>
-    </div>
+            <a
+              href={config.hero.linkedIn}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer hover:text-purple-600"
+            >
+              <FaLinkedin className="text-white text-3xl" />
+            </a>
+            <a
+              href={config.hero.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer hover:text-purple-600"
+            >
+              <FaGithub className="text-white text-3xl" />
+            </a>
+            <a
+              href="/Abdul_Rafay_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex cursor-pointer items-center rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100"
+            >
+              <span className="text-black text-[12px]">View CV</span>
+            </a>
+          </div>
         </div>
-        <div className=" h-[100%] z-50 w-full mt-[1px] sm:block hidden ">
-       <img src={profile} alt="profilepic"  className="object-cover" />
-
-       </div>
+        <div className="h-[700px] w-[700px] z-50 -mt-14 sm:block hidden">
+          <img src={profile} alt="profilepic" className="w-full h-full object-cover rounded-lg" />
+        </div>
       </div>
 
-
-       {/* <ComputersCanvas /> */}
+      {/* <ComputersCanvas /> */}
 
       <div className="bottom-1 absolute md:bottom-10 w-full items-center justify-center sm:flex hidden  ">
         <a href="#about">
@@ -65,13 +73,13 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="bg-secondary mb-1 h-3 w-3 rounded-full"
             />
           </div>
         </a>
-      </div> 
+      </div>
     </section>
   );
 };
