@@ -10,46 +10,34 @@ import type {
 import {
   mobile,
   backend,
-  // vue,
-  traf,
-  flex,
-  // js,
-  sch,
-  // sql,
-  parag,
   creator,
   web,
-  adz,
-  hukul,
-  // javascript,
   typescript,
-  // html,
-  // css,
   reactjs,
   redux,
-  tailwind,
-  pdfweb,
+  nextjs,
   nodejs,
   mongodb,
-  git,
-  figma,
-  aws,
-  pack,
-  vs,
-  cas,
-  docker,
-  meta,
-  // starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
-  cb,
-  koponx,
-  GS,
-  // hukul,
+  it,
+  cyb,
+  softnixt,
+  java,
+  mat,
+  shad,
+  tail,
+  boots,
+  html,
+  css,
+  docker,
+  figma,
+  firebase,
+  git,
+  sql,
+  vs,
+  love,
 } from '../assets';
 export const navLinks: TNavLink[] = [
   {
@@ -80,31 +68,27 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: 'Python AI Integrations Expert',
+    title: 'Experience in Python AI Integrations',
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
-  // {
-  //   name: "MySql",
-  //   icon: sql,
-  // },
-  // {
-  //   name: "Vue Js",
-  //   icon: vue,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: js,
-  // },
+  {
+    name: 'Next.js',
+    icon: nextjs,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
   {
     name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'JavaScript',
+    icon: java,
   },
   {
     name: 'Redux Toolkit',
@@ -119,80 +103,95 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'Material UI',
+    icon: mat,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Shadcn',
+    icon: shad,
   },
   {
-    name: 'docker',
+    name: 'Tailwind Css',
+    icon: tail,
+  },
+  {
+    name: 'BOOTSTRAP 5',
+    icon: boots,
+  },
+  {
+    name: 'HTML',
+    icon: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
+  },
+  {
+    name: 'Docker',
     icon: docker,
   },
   {
-    name: 'postgresql',
-    icon: threejs,
+    name: 'Figma',
+    icon: figma,
   },
   {
     name: 'Firebase',
-    icon: tailwind,
+    icon: firebase,
   },
   {
-    name: 'shopify',
-    icon: shopify,
+    name: 'Git',
+    icon: git,
   },
   {
-    name: 'meta',
-    icon: meta,
+    name: 'Sql',
+    icon: sql,
   },
+
   {
-    name: 'hukul',
-    icon: hukul,
-  },
-  {
-    name: 'aw',
-    icon: aws,
-  },
-  {
-    name: 'vs',
+
+    name: 'VS',
     icon: vs,
+  },
+  {
+    name: 'Loveable',
+    icon: love,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: 'MERN Stack Developer',
-    companyName: 'Dzone Technologies',
-    icon: cb,
+    title: 'Middle-level Next.js Developer',
+    companyName: 'IT Brain',
+    icon: it,
     iconBg: '#383E56',
-    date: '2023-2024',
+    date: '06/2024-08/2024',
     points: [
-      'Specialized in building scalable web applications using the MERN stack.',
-      'Collaborated with cross-functional teams to design, develop, and deploy innovative solutions.',
-      'Optimized backend performance and ensured seamless API integrations.',
-      'Focused on delivering high-quality, user-centric solutions to enhance overall web experiences.',
+      'Gained hands-on experience in developing modern web applications using React.js & Next.js.',
+      'Learned to structure and build full-stack websites with server-side rendering and dynamic routing.',
+      'Focused on creating responsive, SEO-friendly, and performance-optimized applications.',
+      'Built a strong foundation in integrating APIs and managing state in Next.js projects.',
     ],
   },
   {
-    title: 'Middle-level Backend Developer',
-    companyName: 'WebXpert',
-    icon: tesla,
+    title: 'Frontend & Backend Developer',
+    companyName: 'Cyverix',
+    icon: cyb,
     iconBg: '#E6DEDD',
-    date: '2023 - Present',
+    date: '08/2024 - Present',
     points: [
-      'Experience in developing backend services using Node.js for efficient and scalable web applications.',
-      'Collaborated with frontend teams to integrate APIs, ensuring smooth data flow and application performance.',
-      'Designed and optimized databases, implementing RESTful APIs and working with MongoDB to ensure data integrity.',
-      'Contributed to code reviews and team knowledge sharing, fostering a collaborative development environment.',
+      'Started with frontend development, building responsive and user-friendly interfaces.',
+      'Transitioned into backend development, gaining expertise in Node.js and API design.',
+      'Developed and optimized databases, implementing RESTful APIs with MongoDB for reliable data management.',
+      'Collaborated with cross-functional teams, contributing to both frontend and backend to deliver complete solutions.',
+      'Actively involved in code reviews and knowledge sharing to enhance team efficiency and maintain best practices.',
     ],
   },
   {
     title: 'MERN Stack Developer',
-    companyName: 'Adziyo',
-    icon: adz,
+    companyName: 'softnixt',
+    icon: softnixt,
     iconBg: '#383E56',
-    date: '2025 - present',
+    date: '06/2025 - present',
     points: [
       'Specialized in developing dynamic web applications using the MERN stack.',
       'Focused on creating scalable and efficient backends while ensuring smooth front-end integration.',
@@ -301,241 +300,8 @@ const projects: TProject[] = [
     image: tripguide,
     sourceCodeLink:
       'https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/753024815/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738067297611&type=DOCUMENT',
-  },
-  {
-    name: 'Pacedream',
-    description:
-      'PaceDream is a revolutionary platform developed by an expert MERN Stack Developer and AI Solutions Developer.',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React.js',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: GS,
-    sourceCodeLink:
-      'https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/692385601/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738008407528&type=DOCUMENT',
-  },
-  {
-    name: 'SEOHub',
-    description:
-      'SEOHub is a comprehensive MERN Stack solution designed to automate SEO processes, enabling businesses to generate keywords and optimize pages efficiently. ',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React.js',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: koponx,
-    sourceCodeLink: 'https://www.digitalsearchgroup.co.uk/',
-  },
-  {
-    name: 'PDFify',
-    description:
-      'PDFify is an innovative web-based solution developed by a Full Stack Developer, utilizing HTML, CSS, Bootstrap, and JavaScript to provide a seamless user experience',
-    tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Bootstrap',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'JavaScript ',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: pdfweb,
-    sourceCodeLink: 'https://www.compresspdfonline.net/',
-  },
-  {
-    name: 'Rentory',
-    description:
-      'Rentory is an innovative platform developed by an experienced MERN Stack Developer and AI Solutions Developer,',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React.js',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: cas,
-    sourceCodeLink: '',
-  },
-  {
-    name: 'Rewordfiy',
-    description:
-      'This AI-based platform, developed by MERN Stack, is a cutting-edge Generative AI tool designed to help users rewrite paragraphs, sentences.',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React.js',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: parag,
-    sourceCodeLink: '',
-  },
-  {
-    name: 'ScholarAI',
-    description:
-      'ScholarAI is an innovative web application development platform designed for academic research. It includes features such as pagination',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Tailwind CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: sch,
-    sourceCodeLink: '',
-  },
-  {
-    name: 'ShipZen',
-    description:
-      'ShipZen is a full-stack application designed to provide a cost-effective shipping solution with significant savings when compared to agents like Panda Buy.',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB ',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: pack,
-    sourceCodeLink: '',
-  },
-  {
-    name: 'TrafikBilder',
-    description:
-      'This project is a web application development platform built using the MERN Stack 💻 that allows users to access traffic-related images and videos. ',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB ',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: traf,
-    sourceCodeLink: '',
-  },
-  {
-    name: 'Zorova Health',
-    description:
-      'Zorova is an innovative MERN Stack platform designed to offer a wide range of services such as massage 💆‍♂️, fitness 🏋️‍♀️, stretching 🧘‍♂️, weight loss programs',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'MongoDB ',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: flex,
-    sourceCodeLink: 'https://flexiva-v2.vercel.app/',
-  },
+  }
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

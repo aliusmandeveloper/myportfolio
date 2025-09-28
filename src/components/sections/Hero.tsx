@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="lg:w-[40%] w-full">
             <h6 className={`${styles.heroSubText} text-white`}>
               I'm <span className="text-[#915EFF]">{config.hero.name}</span>, a skilled full-stack
-              Mobile Application developer focusing on creating user-friendly and visually appealing
+              Web Application developer focusing on creating user-friendly and visually appealing
               UI designs, along with practical backend solutions to drive innovation
             </h6>
           </div>
@@ -56,7 +56,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="h-[700px] w-[700px] z-50 -mt-14 sm:block hidden">
+        <div className="h-[600px] w-[600px] z-50 -mt-14 sm:block hidden">
           <img src={profile} alt="profilepic" className="w-full h-full object-cover rounded-lg" />
         </div>
       </div>
