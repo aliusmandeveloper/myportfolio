@@ -148,7 +148,6 @@ const technologies: TTechnology[] = [
   },
 
   {
-
     name: 'VS',
     icon: vs,
   },
@@ -300,8 +299,7 @@ const projects: TProject[] = [
     image: tripguide,
     sourceCodeLink:
       'https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/753024815/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738067297611&type=DOCUMENT',
-  }
-  
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
