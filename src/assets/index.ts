@@ -38,39 +38,20 @@ import it from './company/it.png';
 import cyb from './company/cyb.png';
 import softnixt from './company/softnixt.png';
 import adz from './company/adz.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
-import GS from './GS.png';
 import profile from './profile.png';
-import koponx from './Koponx.jpg';
 import boots from './tech/boots.png';
-import pdfweb from './pdfweb.png';
-import cas from './cas.png';
-import parag from './parag.png';
-import sch from './sch.png';
-import pack from './pack.png';
 import dawat from './project/dawat.png';
-import traf from './traf.png';
-import flex from './flex.png';
-// import next from './tech/next.png'
 export {
   logo,
   adz,
-  // next,
   vue,
   tail,
-  flex,
-  parag,
-  cas,
   boots,
   dawat,
   paragraph,
   nj,
   love,
-  pack,
-  traf,
   vs,
-  sch,
   shad,
   sql,
   java,
@@ -81,12 +62,10 @@ export {
   web,
   github,
   menu,
-  pdfweb,
   close,
   css,
   docker,
   figma,
-  // nextjs,
   html,
   mongodb,
   nodejs,
@@ -100,13 +79,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  jobit,
-  tripguide,
   cb,
   it,
   cyb,
   softnixt,
-  GS,
   profile,
-  koponx,
 };

@@ -21,51 +21,39 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt glareEnable tiltEnable tiltMaxAngleX={30} tiltMaxAngleY={30} glareColor="#aaa6c3">
-   <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px] h-[550px] flex flex-col justify-between">
-  <div>
-    <div className="relative h-[230px] w-full">
-      <img
-        src={image}
-        alt={name}
-        className="w-full h-full object-cover rounded-2xl"
-      />
-      <div className="card-img_hover absolute inset-1 m-3 flex justify-end">
-        <section className="flex absolute top-0 w-[30px] h-[30px]">
-          <button
-            className="group flex justify-center p-[5px] rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
-            onClick={() => window.open(sourceCodeLink, '_blank')}
-          >
-            <img
-              src={github}
-              alt="github"
-              className="h-full w-full rounded-full"
-            />
-            <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-7 duration-700">
-              Demo
-            </span>
-          </button>
-        </section>
-      </div>
-    </div>
+        <div className="bg-tertiary w-full rounded-2xl p-4 sm:w-[300px] h-[520px] flex flex-col justify-between">
+          <div>
+            <div className="relative h-[230px] w-full">
+              <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+              <div className="card-img_hover absolute inset-1 m-3 flex justify-end">
+                <section className="flex absolute top-0 w-[30px] h-[30px]">
+                  <button
+                    className="group flex justify-center p-[5px] rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                    onClick={() => window.open(sourceCodeLink, '_blank')}
+                  >
+                    <img src={github} alt="github" className="h-full w-full rounded-full" />
+                    <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-7 duration-700">
+                      Demo
+                    </span>
+                  </button>
+                </section>
+              </div>
+            </div>
 
-    <div className="mt-5 flex flex-col flex-grow">
-      <h3 className="text-[24px] font-bold text-white">{name}</h3>
-      <p className="text-secondary mt-2 text-[14px] flex-grow">
-        {description}
-      </p>
-    </div>
-  </div>
+            <div className="mt-5 flex flex-col flex-grow">
+              <h3 className="text-[24px] font-bold text-white">{name}</h3>
+              <p className="text-secondary mt-2 text-[14px] flex-grow">{description}</p>
+            </div>
+          </div>
 
-  <div className="mt-4 flex flex-wrap gap-2">
-    {tags.map(tag => (
-      <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-        #{tag.name}
-      </p>
-    ))}
-  </div>
-</div>
-
-
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map(tag => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+        </div>
       </Tilt>
     </motion.div>
   );
