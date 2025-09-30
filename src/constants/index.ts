@@ -18,9 +18,9 @@ import {
   // nextjs,
   nodejs,
   mongodb,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
   it,
   cyb,
   softnixt,
@@ -39,6 +39,9 @@ import {
   firebase,
   vs,
   love,
+  paragraph,
+  dawat,
+  calculator,
   // next,
 } from "../assets";
 const technologies: TTechnology[] = [
@@ -234,10 +237,14 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: 'Big Star',
+    name: 'PARAGRAPH REWRITER',
     description:
-      'Big Star is a high-performance MERN Stack Developer project that revolutionizes vehicle exploration.',
+      'Improve the Quality of Your Paragraphs With the Help of Our Free Paragraph Rewriter. Enjoy Our AI-Powered Rewriter With No Sign-Up or Registration.',
     tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
       {
         name: 'JavaScript',
         color: 'blue-text-gradient',
@@ -247,21 +254,21 @@ const projects: TProject[] = [
         color: 'green-text-gradient',
       },
       {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
         name: 'Express',
-        color: 'blue-text-gradient',
+        color: 'orange-text-gradient',
+      },
+       {
+        name: 'Gorq-Api',
+        color: 'yellow-text-gradient',
       },
     ],
-    image: carrent,
-    sourceCodeLink: 'http://ec2-54-252-183-45.ap-southeast-2.compute.amazonaws.com:3000/home',
+    image: paragraph,
+    sourceCodeLink: 'https://paragraph-rewriter-six.vercel.app/',
   },
   {
-    name: 'Edexcel',
+    name: 'Dawat-Ul-Aman',
     description:
-      ' Edexcel Academy & Educational Consultancy is a premier platform dedicated to empowering students through high-quality education and professional guidance. ',
+      ' We offer comprehensive courses that nurture both spiritual growth and practical understanding of Islam, guiding students to lead purposeful, peaceful lives. ',
     tags: [
       {
         name: 'HTML',
@@ -275,35 +282,39 @@ const projects: TProject[] = [
         name: 'Bootstrap',
         color: 'pink-text-gradient',
       },
+       {
+        name: 'Tailwind CSS',
+        color: 'yellow-text-gradient',
+      }
     ],
-    image: jobit,
-    sourceCodeLink: 'https://edexceledu.com/',
+    image: dawat,
+    sourceCodeLink: 'https://dawat-ul-aman-mu.vercel.app/',
   },
   {
-    name: 'GlowArt',
+    name: 'Google Calendar',
     description:
-      'GlowArt enables users to export their collection data to an Excel sheet, providing an easy way to organize and analyze their artwork',
+      'A simple Google Calendar integration app built with Next.js. Users can add, view, and manage tasks/events, sync them with Google Calendar, and keep track of their schedules easily.',
     tags: [
-      {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React.js',
-        color: 'green-text-gradient',
-      },
       {
         name: 'Next.js',
         color: 'pink-text-gradient',
       },
       {
-        name: 'MongoDB ',
+        name: 'JavaScript',
+        color: 'blue-text-gradient',
+      },       
+      {
+        name: 'Typescript', 
         color: 'blue-text-gradient',
       },
+        {
+        name: 'Tailwind CSS',
+        color: 'yellow-text-gradient',
+      }
     ],
-    image: tripguide,
+    image: calculator,
     sourceCodeLink:
-      'https://www.linkedin.com/in/abdulrafay-mernstack-developer/details/projects/753024815/multiple-media-viewer/?profileId=ACoAADgySDsBRX-J2KfEvU61c2mp22i6H9lyBM8&treasuryMediaId=1738067297611&type=DOCUMENT',
+      'https://google-calendar-green.vercel.app/',
   },
 ];
 

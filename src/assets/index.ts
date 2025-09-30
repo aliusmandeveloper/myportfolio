@@ -3,7 +3,6 @@ import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
 import web from './web.png';
-import hukul from './hukul.png';
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
@@ -11,11 +10,13 @@ import love from './tech/love.png'
 import sql from './tech/sql.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
+import paragraph from './project/paragraph.png';
 import figma from './tech/figma.png';
 import nj from "./tech/nj.png";
 import html from './tech/html.png';
 import vs from './tech/vs.png';
 import mongodb from './tech/mongodb.png';
+import calculator from './project/calculator.png';
 import nodejs from './tech/nodejs.png';
 // import nextjs from './tech/nextjs.png';
 import git from './tech/git.png';
@@ -37,7 +38,6 @@ import it from './company/it.png';
 import cyb from './company/cyb.png';
 import softnixt from './company/softnixt.png';
 import adz from './company/adz.png';
-import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import GS from './GS.png';
@@ -49,6 +49,7 @@ import cas from './cas.png';
 import parag from './parag.png';
 import sch from './sch.png';
 import pack from './pack.png';
+import dawat from './project/dawat.png';
 import traf from './traf.png';
 import flex from './flex.png';
 // import next from './tech/next.png'
@@ -62,6 +63,8 @@ export {
   parag,
   cas,
   boots,
+  dawat,
+  paragraph,
   nj,
   love,
   pack,
@@ -76,7 +79,6 @@ export {
   creator,
   mobile,
   web,
-  hukul,
   github,
   menu,
   pdfweb,
@@ -89,6 +91,7 @@ export {
   mongodb,
   nodejs,
   git,
+  calculator,
   reactjs,
   redux,
   firebase,
@@ -97,7 +100,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   cb,
