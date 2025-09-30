@@ -12,11 +12,12 @@ import sql from './tech/sql.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
+import nj from "./tech/nj.png";
 import html from './tech/html.png';
 import vs from './tech/vs.png';
 import mongodb from './tech/mongodb.png';
 import nodejs from './tech/nodejs.png';
-import nextjs from './tech/nextjs.png';
+// import nextjs from './tech/nextjs.png';
 import git from './tech/git.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
@@ -50,16 +51,18 @@ import sch from './sch.png';
 import pack from './pack.png';
 import traf from './traf.png';
 import flex from './flex.png';
-
+// import next from './tech/next.png'
 export {
   logo,
   adz,
+  // next,
   vue,
   tail,
   flex,
   parag,
   cas,
   boots,
+  nj,
   love,
   pack,
   traf,
@@ -81,7 +84,7 @@ export {
   css,
   docker,
   figma,
-  nextjs,
+  // nextjs,
   html,
   mongodb,
   nodejs,

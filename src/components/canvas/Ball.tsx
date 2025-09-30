@@ -1,17 +1,10 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  Decal,
-  Float,
-  OrbitControls,
-  Preload,
-  useTexture,
-} from "@react-three/drei";
-
+import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 import CanvasLoader from "../layout/Loader";
 
-const Ball = (props: any) => {
-  const [decal] = useTexture([props.imgUrl]);
+const Ball = ({ imgUrl }: { imgUrl: string }) => {
+  const [decal] = useTexture([imgUrl]);
 
   return (
     <Float speed={2.5} rotationIntensity={1} floatIntensity={2}>
@@ -25,32 +18,29 @@ const Ball = (props: any) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-       <Decal
-  position={[0, 0, 1]}
-  rotation={[2 * Math.PI, 0, 6.25]}
-  map={decal}
-/>
-
+        {decal && (
+          <Decal
+            position={[0, 0, 1]}
+            rotation={[2 * Math.PI, 0, 6.25]}
+            map={decal}
+          />
+        )}
       </mesh>
     </Float>
   );
 };
 
-const BallCanvas: React.FC<{ icon: string }> = ({ icon }) => {
+const BallCanvas = ({ icon }: { icon: string }) => {
   return (
-    <Canvas
-      frameloop="always"
-      // dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <Canvas gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
 };
+
 
 export default BallCanvas;

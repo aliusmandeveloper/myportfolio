@@ -15,7 +15,7 @@ import {
   typescript,
   reactjs,
   redux,
-  nextjs,
+  // nextjs,
   nodejs,
   mongodb,
   carrent,
@@ -24,21 +24,108 @@ import {
   it,
   cyb,
   softnixt,
+  nj,
   java,
   mat,
-  shad,
   tail,
   boots,
-  html,
   css,
-  docker,
-  figma,
+  html,
+  // shad,
+  // docker,
+  // figma,
+  // git,
+  // sql,
   firebase,
-  git,
-  sql,
   vs,
   love,
-} from '../assets';
+  // next,
+} from "../assets";
+const technologies: TTechnology[] = [
+   {
+    name: 'Next js',
+    icon: nj,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+  {
+    name: 'JavaScript',
+    icon: java,
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: redux,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'MongoDB',
+    icon: mongodb,
+  },
+  {
+    name: 'Material UI',
+    icon: mat,
+  },
+  // {
+  //   name: 'Shadcn',
+  //   icon: shad,
+  // },
+  {
+    name: 'Tailwind Css',
+    icon: tail,
+  },
+  {
+    name: 'BOOTSTRAP 5',
+    icon: boots,
+  },
+  {
+    name: 'HTML',
+    icon: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
+  },
+  // {
+  //   name: 'Docker',
+  //   icon: docker,
+  // },
+  // {
+  //   name: 'Figma',
+  //   icon: figma,
+  // },
+  {
+    name: 'Firebase',
+    icon: firebase,
+  },
+  // {
+  //   name: 'Git',
+  //   icon: git,
+  // },
+  // {
+  //   name: 'Sql',
+  //   icon: sql,
+  // },
+
+  {
+    name: 'VS',
+    icon: vs,
+  },
+  {
+    name: 'Loveable',
+    icon: love,
+  },
+ 
+];
+
 export const navLinks: TNavLink[] = [
   {
     id: 'about',
@@ -73,89 +160,7 @@ const services: TService[] = [
   },
 ];
 
-const technologies: TTechnology[] = [
-  {
-    name: 'Next.js',
-    icon: nextjs,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'JavaScript',
-    icon: java,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Material UI',
-    icon: mat,
-  },
-  {
-    name: 'Shadcn',
-    icon: shad,
-  },
-  {
-    name: 'Tailwind Css',
-    icon: tail,
-  },
-  {
-    name: 'BOOTSTRAP 5',
-    icon: boots,
-  },
-  {
-    name: 'HTML',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'Docker',
-    icon: docker,
-  },
-  {
-    name: 'Figma',
-    icon: figma,
-  },
-  {
-    name: 'Firebase',
-    icon: firebase,
-  },
-  {
-    name: 'Git',
-    icon: git,
-  },
-  {
-    name: 'Sql',
-    icon: sql,
-  },
 
-  {
-    name: 'VS',
-    icon: vs,
-  },
-  {
-    name: 'Loveable',
-    icon: love,
-  },
-];
 
 const experiences: TExperience[] = [
   {

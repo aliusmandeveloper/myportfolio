@@ -328,6 +328,353 @@ possible:
 **Three.js 3D Portfolio** is open source software
 [licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
 [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
-#   m y p o r t f o l i o  
- #   m y p o r t f o l i o  
+#   m y p o r t f o l i o 
  
+ #   m y p o r t f o l i o 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Portfolio+vite/
+├─ dist/
+│  ├─ assets/
+│  │  ├─ adz-BzELEZRy.png
+│  │  ├─ AR-DySLH7Kk.png
+│  │  ├─ backend-B4luK_fR.png
+│  │  ├─ boots-tLqkWsOf.png
+│  │  ├─ carrent-BasnKSmV.png
+│  │  ├─ cas-DC_IUBTL.png
+│  │  ├─ cb-Cam9xX5E.png
+│  │  ├─ creator-DPpJU1Gk.png
+│  │  ├─ css-CAsor-HB.png
+│  │  ├─ cyb-BG9XbOKZ.png
+│  │  ├─ docker-DrQKSZ7f.png
+│  │  ├─ figma-DdeqztSZ.png
+│  │  ├─ firebase-g5GqUzEi.png
+│  │  ├─ flex-uc32kqqQ.png
+│  │  ├─ github-BJlaEnou.png
+│  │  ├─ GS-CzOC_yja.png
+│  │  ├─ herobg-B_F_beXt.png
+│  │  ├─ html-_9c5Ggq_.png
+│  │  ├─ hukul-YlZMnJev.png
+│  │  ├─ index-BbJ5EIpO.css
+│  │  ├─ index-BBz8ynNK.js
+│  │  ├─ it-m_F1AUE_.png
+│  │  ├─ jobit-Dj0Z5ZAx.png
+│  │  ├─ Koponx-BWOOvoXT.jpg
+│  │  ├─ love-Dk8ABe7i.png
+│  │  ├─ mat-CVWNoLKG.png
+│  │  ├─ meta-Cy_q3vS6.png
+│  │  ├─ mobile-CewLEo0n.png
+│  │  ├─ mongodb-DnU9EL9s.png
+│  │  ├─ nextjs-BIvEC02d.png
+│  │  ├─ nodejs-Bw5ER_SM.png
+│  │  ├─ pack-CgM3r47p.png
+│  │  ├─ parag-BgWAEVcY.png
+│  │  ├─ pdfweb-DEdrbfVb.png
+│  │  ├─ profile-BornHA3r.png
+│  │  ├─ redux-CZb_OTmG.png
+│  │  ├─ sch-DUg5oiyt.png
+│  │  ├─ shad-C4V_tW9r.png
+│  │  ├─ shopify-C3MSEADM.png
+│  │  ├─ sql-Y8BqaCCX.png
+│  │  ├─ starbucks-DpiFR2bK.png
+│  │  ├─ tail-CLR6e3yI.png
+│  │  ├─ traf-DCbQwaBf.png
+│  │  ├─ tripguide-DqGREipU.png
+│  │  ├─ v3-DmRlxnhe.png
+│  │  ├─ vs-B9C3bmDg.png
+│  │  ├─ vue-DtztZdcY.png
+│  │  └─ web-t65li9Rw.png
+│  ├─ desktop_pc/
+│  │  ├─ textures/
+│  │  │  ├─ Material_baseColor.jpeg
+│  │  │  ├─ Material_metallicRoughness.png
+│  │  │  ├─ Material.002_baseColor.png
+│  │  │  ├─ Material.023_baseColor.jpeg
+│  │  │  ├─ Material.024_baseColor.jpeg
+│  │  │  ├─ Material.074_0_baseColor.png
+│  │  │  ├─ Material.074_1_baseColor.jpeg
+│  │  │  ├─ Material.074_10_baseColor.jpeg
+│  │  │  ├─ Material.074_11_baseColor.png
+│  │  │  ├─ Material.074_12_baseColor.jpeg
+│  │  │  ├─ Material.074_13_baseColor.png
+│  │  │  ├─ Material.074_14_baseColor.png
+│  │  │  ├─ Material.074_15_baseColor.png
+│  │  │  ├─ Material.074_16_baseColor.png
+│  │  │  ├─ Material.074_17_baseColor.png
+│  │  │  ├─ Material.074_18_baseColor.png
+│  │  │  ├─ Material.074_18_emissive.png
+│  │  │  ├─ Material.074_19_baseColor.png
+│  │  │  ├─ Material.074_2_baseColor.jpeg
+│  │  │  ├─ Material.074_20_baseColor.png
+│  │  │  ├─ Material.074_21_baseColor.png
+│  │  │  ├─ Material.074_22_baseColor.png
+│  │  │  ├─ Material.074_23_baseColor.png
+│  │  │  ├─ Material.074_24_baseColor.png
+│  │  │  ├─ Material.074_24_emissive.png
+│  │  │  ├─ Material.074_25_baseColor.jpeg
+│  │  │  ├─ Material.074_26_baseColor.png
+│  │  │  ├─ Material.074_27_baseColor.png
+│  │  │  ├─ Material.074_27_emissive.png
+│  │  │  ├─ Material.074_28_baseColor.png
+│  │  │  ├─ Material.074_29_baseColor.png
+│  │  │  ├─ Material.074_3_baseColor.png
+│  │  │  ├─ Material.074_30_baseColor.png
+│  │  │  ├─ Material.074_31_baseColor.png
+│  │  │  ├─ Material.074_32_baseColor.jpeg
+│  │  │  ├─ Material.074_33_baseColor.png
+│  │  │  ├─ Material.074_34_baseColor.jpeg
+│  │  │  ├─ Material.074_35_baseColor.png
+│  │  │  ├─ Material.074_36_baseColor.jpeg
+│  │  │  ├─ Material.074_39_baseColor.jpeg
+│  │  │  ├─ Material.074_4_baseColor.png
+│  │  │  ├─ Material.074_4_emissive.png
+│  │  │  ├─ Material.074_40_baseColor.png
+│  │  │  ├─ Material.074_5_baseColor.png
+│  │  │  ├─ Material.074_6_baseColor.png
+│  │  │  ├─ Material.074_7_baseColor.png
+│  │  │  ├─ Material.074_8_baseColor.png
+│  │  │  ├─ Material.074_9_baseColor.png
+│  │  │  ├─ Material.074_9_emissive.png
+│  │  │  ├─ Material.074_baseColor.png
+│  │  │  └─ Tasten_2_baseColor.jpeg
+│  │  ├─ license.txt
+│  │  ├─ scene.bin
+│  │  └─ scene.gltf
+│  ├─ planet/
+│  │  ├─ textures/
+│  │  │  ├─ Clouds_baseColor.png
+│  │  │  └─ Planet_baseColor.png
+│  │  ├─ license.txt
+│  │  ├─ scene.bin
+│  │  └─ scene.gltf
+│  ├─ Abdul_Rafay_Resume.pdf
+│  ├─ index.html
+│  ├─ logo.png
+│  └─ logo.svg
+├─ public/
+│  ├─ desktop_pc/
+│  │  ├─ textures/
+│  │  │  ├─ Material_baseColor.jpeg
+│  │  │  ├─ Material_metallicRoughness.png
+│  │  │  ├─ Material.002_baseColor.png
+│  │  │  ├─ Material.023_baseColor.jpeg
+│  │  │  ├─ Material.024_baseColor.jpeg
+│  │  │  ├─ Material.074_0_baseColor.png
+│  │  │  ├─ Material.074_1_baseColor.jpeg
+│  │  │  ├─ Material.074_10_baseColor.jpeg
+│  │  │  ├─ Material.074_11_baseColor.png
+│  │  │  ├─ Material.074_12_baseColor.jpeg
+│  │  │  ├─ Material.074_13_baseColor.png
+│  │  │  ├─ Material.074_14_baseColor.png
+│  │  │  ├─ Material.074_15_baseColor.png
+│  │  │  ├─ Material.074_16_baseColor.png
+│  │  │  ├─ Material.074_17_baseColor.png
+│  │  │  ├─ Material.074_18_baseColor.png
+│  │  │  ├─ Material.074_18_emissive.png
+│  │  │  ├─ Material.074_19_baseColor.png
+│  │  │  ├─ Material.074_2_baseColor.jpeg
+│  │  │  ├─ Material.074_20_baseColor.png
+│  │  │  ├─ Material.074_21_baseColor.png
+│  │  │  ├─ Material.074_22_baseColor.png
+│  │  │  ├─ Material.074_23_baseColor.png
+│  │  │  ├─ Material.074_24_baseColor.png
+│  │  │  ├─ Material.074_24_emissive.png
+│  │  │  ├─ Material.074_25_baseColor.jpeg
+│  │  │  ├─ Material.074_26_baseColor.png
+│  │  │  ├─ Material.074_27_baseColor.png
+│  │  │  ├─ Material.074_27_emissive.png
+│  │  │  ├─ Material.074_28_baseColor.png
+│  │  │  ├─ Material.074_29_baseColor.png
+│  │  │  ├─ Material.074_3_baseColor.png
+│  │  │  ├─ Material.074_30_baseColor.png
+│  │  │  ├─ Material.074_31_baseColor.png
+│  │  │  ├─ Material.074_32_baseColor.jpeg
+│  │  │  ├─ Material.074_33_baseColor.png
+│  │  │  ├─ Material.074_34_baseColor.jpeg
+│  │  │  ├─ Material.074_35_baseColor.png
+│  │  │  ├─ Material.074_36_baseColor.jpeg
+│  │  │  ├─ Material.074_39_baseColor.jpeg
+│  │  │  ├─ Material.074_4_baseColor.png
+│  │  │  ├─ Material.074_4_emissive.png
+│  │  │  ├─ Material.074_40_baseColor.png
+│  │  │  ├─ Material.074_5_baseColor.png
+│  │  │  ├─ Material.074_6_baseColor.png
+│  │  │  ├─ Material.074_7_baseColor.png
+│  │  │  ├─ Material.074_8_baseColor.png
+│  │  │  ├─ Material.074_9_baseColor.png
+│  │  │  ├─ Material.074_9_emissive.png
+│  │  │  ├─ Material.074_baseColor.png
+│  │  │  └─ Tasten_2_baseColor.jpeg
+│  │  ├─ license.txt
+│  │  ├─ scene.bin
+│  │  └─ scene.gltf
+│  ├─ planet/
+│  │  ├─ textures/
+│  │  │  ├─ Clouds_baseColor.png
+│  │  │  └─ Planet_baseColor.png
+│  │  ├─ license.txt
+│  │  ├─ scene.bin
+│  │  └─ scene.gltf
+│  ├─ Abdul_Rafay_Resume.pdf
+│  ├─ logo.png
+│  └─ logo.svg
+├─ src/
+│  ├─ assets/
+│  │  ├─ company/
+│  │  │  ├─ adz.png
+│  │  │  ├─ cb.png
+│  │  │  ├─ cyb.png
+│  │  │  ├─ it.png
+│  │  │  ├─ meta.png
+│  │  │  ├─ meta1.png
+│  │  │  ├─ shopify.png
+│  │  │  ├─ shopify1.png
+│  │  │  ├─ softnixt.png
+│  │  │  ├─ starbucks.png
+│  │  │  ├─ tesla1.png
+│  │  │  ├─ v3.png
+│  │  │  └─ v31.png
+│  │  ├─ tech/
+│  │  │  ├─ boots.png
+│  │  │  ├─ css.png
+│  │  │  ├─ docker.png
+│  │  │  ├─ figma.png
+│  │  │  ├─ firebase.png
+│  │  │  ├─ git.png
+│  │  │  ├─ html.png
+│  │  │  ├─ java.png
+│  │  │  ├─ love.png
+│  │  │  ├─ mat.png
+│  │  │  ├─ mongodb.png
+│  │  │  ├─ next.png
+│  │  │  ├─ nextjs.png
+│  │  │  ├─ nodejs.png
+│  │  │  ├─ reactjs.png
+│  │  │  ├─ redux.png
+│  │  │  ├─ shad.png
+│  │  │  ├─ sql.png
+│  │  │  ├─ tail.png
+│  │  │  ├─ typescript.png
+│  │  │  └─ vs.png
+│  │  ├─ 3.png
+│  │  ├─ AR.png
+│  │  ├─ backend.png
+│  │  ├─ carrent.png
+│  │  ├─ cas.png
+│  │  ├─ close.svg
+│  │  ├─ creator.png
+│  │  ├─ flex.png
+│  │  ├─ github.png
+│  │  ├─ GS.png
+│  │  ├─ herobg.png
+│  │  ├─ hukul.png
+│  │  ├─ index.ts
+│  │  ├─ jobit.png
+│  │  ├─ Koponx.jpg
+│  │  ├─ logo.png
+│  │  ├─ logo.svg
+│  │  ├─ menu.svg
+│  │  ├─ mobile.png
+│  │  ├─ pack.png
+│  │  ├─ parag.png
+│  │  ├─ pdfweb.png
+│  │  ├─ profile.png
+│  │  ├─ profile1.png
+│  │  ├─ profile2.png
+│  │  ├─ sch.png
+│  │  ├─ Screenshot 2025-03-21 120620.png
+│  │  ├─ traf.png
+│  │  ├─ tripguide.png
+│  │  ├─ tripguide1.png
+│  │  ├─ vue.png
+│  │  ├─ web.png
+│  │  └─ web1.png
+│  ├─ components/
+│  │  ├─ atoms/
+│  │  │  └─ Header.tsx
+│  │  ├─ canvas/
+│  │  │  ├─ Ball.tsx
+│  │  │  ├─ Computers.tsx
+│  │  │  ├─ Earth.tsx
+│  │  │  ├─ index.ts
+│  │  │  └─ Stars.tsx
+│  │  ├─ layout/
+│  │  │  ├─ Loader.tsx
+│  │  │  └─ Navbar.tsx
+│  │  ├─ sections/
+│  │  │  ├─ About.tsx
+│  │  │  ├─ Contact.tsx
+│  │  │  ├─ Experience.tsx
+│  │  │  ├─ Feedbacks.tsx
+│  │  │  ├─ Hero.tsx
+│  │  │  ├─ Tech.tsx
+│  │  │  └─ Works.tsx
+│  │  └─ index.ts
+│  ├─ constants/
+│  │  ├─ config.ts
+│  │  ├─ index.ts
+│  │  └─ styles.ts
+│  ├─ hoc/
+│  │  ├─ index.ts
+│  │  └─ SectionWrapper.tsx
+│  ├─ types/
+│  │  └─ index.d.ts
+│  ├─ utils/
+│  │  └─ motion.ts
+│  ├─ App.tsx
+│  ├─ globals.css
+│  ├─ main.tsx
+│  └─ vite-env.d.ts
+├─ .env
+├─ .eslintignore
+├─ .eslintrc.cjs
+├─ .gitignore
+├─ .prettierignore
+├─ .prettierrc.cjs
+├─ index.html
+├─ LICENSE
+├─ package.json
+├─ postcss.config.cjs
+├─ README.md
+├─ tailwind.config.cjs
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.js
