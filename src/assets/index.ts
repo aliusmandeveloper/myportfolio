@@ -41,10 +41,12 @@ import adz from './company/adz.png';
 import profile from './profile.png';
 import boots from './tech/boots.png';
 import dawat from './project/dawat.png';
+import dairyfarm from './project/dairyfarm.png';
 export {
   logo,
   adz,
   vue,
+  dairyfarm,
   tail,
   boots,
   dawat,

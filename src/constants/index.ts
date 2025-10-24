@@ -39,13 +39,14 @@ import {
   firebase,
   vs,
   love,
+  dairyfarm,
   paragraph,
   dawat,
   calculator,
   // next,
-} from "../assets";
+} from '../assets';
 const technologies: TTechnology[] = [
-   {
+  {
     name: 'Next js',
     icon: nj,
   },
@@ -126,7 +127,6 @@ const technologies: TTechnology[] = [
     name: 'Loveable',
     icon: love,
   },
- 
 ];
 
 export const navLinks: TNavLink[] = [
@@ -138,7 +138,7 @@ export const navLinks: TNavLink[] = [
     id: 'experience',
     title: 'Experience',
   },
-    {
+  {
     id: 'projects',
     title: 'Projects',
   },
@@ -166,8 +166,6 @@ const services: TService[] = [
     icon: creator,
   },
 ];
-
-
 
 const experiences: TExperience[] = [
   {
@@ -261,13 +259,14 @@ const projects: TProject[] = [
         name: 'Express',
         color: 'orange-text-gradient',
       },
-       {
+      {
         name: 'Gorq-Api',
         color: 'yellow-text-gradient',
       },
     ],
     image: paragraph,
-    sourceCodeLink: 'https://paragraph-rewriter-six.vercel.app/',
+    sourceCodeLink: 'https://github.com/aliusmandeveloper/-Paragraph-Rewriter',
+    liveDemoLink: 'https://paragraph-rewriter-six.vercel.app/',
   },
   {
     name: 'Dawat-Ul-Aman',
@@ -286,13 +285,14 @@ const projects: TProject[] = [
         name: 'Bootstrap',
         color: 'pink-text-gradient',
       },
-       {
+      {
         name: 'Tailwind CSS',
         color: 'yellow-text-gradient',
-      }
+      },
     ],
     image: dawat,
-    sourceCodeLink: 'https://dawat-ul-aman-mu.vercel.app/',
+    liveDemoLink: 'https://dawat-ul-aman-mu.vercel.app/',
+    sourceCodeLink: 'https://github.com/aliusmandeveloper/Dawat-Ul-Aman',
   },
   {
     name: 'Google Calendar',
@@ -306,19 +306,50 @@ const projects: TProject[] = [
       {
         name: 'JavaScript',
         color: 'blue-text-gradient',
-      },       
+      },
       {
-        name: 'Typescript', 
+        name: 'Typescript',
         color: 'blue-text-gradient',
       },
-        {
+      {
         name: 'Tailwind CSS',
         color: 'yellow-text-gradient',
-      }
+      },
     ],
     image: calculator,
-    sourceCodeLink:
-      'https://google-calendar-green.vercel.app/',
+    sourceCodeLink: 'https://github.com/aliusmandeveloper/Google-calendar',
+    liveDemoLink: 'https://google-calendar-green.vercel.app/',
+  },
+
+  {
+    name: 'Dairy Farm Management System',
+    description:
+      'A smart dairy farm management system  helps dairy owners manage cows, milk production, vaccination, and sales records efficiently. The system supports role-based access with a secure login and real-time data updates.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'yellow-text-gradient',
+      },
+      {
+        name: 'React Icons',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Vercel',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: dairyfarm, // replace with your project image import
+    sourceCodeLink: 'https://github.com/aliusmandeveloper/DairyForm-Management-System', // replace with your actual deployed link
+    liveDemoLink: 'https://dairy-form-management-system.vercel.app/',
   },
 ];
 
