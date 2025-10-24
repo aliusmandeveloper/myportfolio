@@ -50,7 +50,7 @@ const Hero = () => {
                   <FaGithub className="text-white text-3xl" />
                 </a>
                 <a
-                  href="/Abdul_Rafay_Resume.pdf"
+                  href="/ali_usman.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex cursor-pointer items-center rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90"

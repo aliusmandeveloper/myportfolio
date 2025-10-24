@@ -77,7 +77,7 @@ const Experience = ({refs}:any) => {
               </div>
             }
           >
-            <a href='/Abdul_Rafay_Resume.pdf' download={'Abdul_Rafay_Resume.pdf'} className="w-[160px] bg-black h-[50px] my-3 flex items-center justify-center ml-auto mr-auto rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#7f6be3] before:to-[#5646aa] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
+            <a href='/ali_usman.pdf' download={'ali_usman.pdf'} className="w-[160px] bg-black h-[50px] my-3 flex items-center justify-center ml-auto mr-auto rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#7f6be3] before:to-[#5646aa] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -111,4 +111,4 @@ const Experience = ({refs}:any) => {
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experience, 'experience');
