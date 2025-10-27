@@ -10,7 +10,7 @@ import type {
 import {
   mobile,
   backend,
-  ralconnect,
+  ralconnectproject,
   creator,
   web,
   typescript,
@@ -408,7 +408,7 @@ const projects: TProject[] = [
         color: 'orange-text-gradient',
       },
     ],
-    image: ralconnect, // replace with your project image import
+    image: ralconnectproject, // replace with your project image import
     sourceCodeLink: '', // replace with actual repo link if available
     liveDemoLink: 'https://ral-connect.vercel.app/',
   },
