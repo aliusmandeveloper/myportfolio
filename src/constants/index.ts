@@ -10,7 +10,7 @@ import type {
 import {
   mobile,
   backend,
-  ralconnectproject,
+  // ralconnectproject,
   creator,
   web,
   typescript,
@@ -382,36 +382,36 @@ const projects: TProject[] = [
     sourceCodeLink: '',
     liveDemoLink: 'https://coachings-nextjs-vercel.vercel.app/',
   },
-  {
-    name: 'RAL Connect',
-    description:
-      'A comprehensive multi-role web platform featuring separate dashboards for Superadmin, Admin, Vendor, Partner, Families, Nursing, and ALTS users. It implements robust role-based access control (RBAC) and dynamic UI routing to deliver personalized experiences for each user type.',
-    tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Loveable.io',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Tailwind CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'REST APIs',
-        color: 'purple-text-gradient',
-      },
-      {
-        name: 'Vercel',
-        color: 'orange-text-gradient',
-      },
-    ],
-    image: ralconnectproject, // replace with your project image import
-    sourceCodeLink: '', // replace with actual repo link if available
-    liveDemoLink: 'https://ral-connect.vercel.app/',
-  },
+  // {
+  //   name: 'RAL Connect',
+  //   description:
+  //     'A comprehensive multi-role web platform featuring separate dashboards for Superadmin, Admin, Vendor, Partner, Families, Nursing, and ALTS users. It implements robust role-based access control (RBAC) and dynamic UI routing to deliver personalized experiences for each user type.',
+  //   tags: [
+  //     {
+  //       name: 'React.js',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'Loveable.io',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'Tailwind CSS',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'REST APIs',
+  //       color: 'purple-text-gradient',
+  //     },
+  //     {
+  //       name: 'Vercel',
+  //       color: 'orange-text-gradient',
+  //     },
+  //   ],
+  //   image: ralconnectproject, // replace with your project image import
+  //   sourceCodeLink: '', // replace with actual repo link if available
+  //   liveDemoLink: 'https://ral-connect.vercel.app/',
+  // },
  
 ];
 

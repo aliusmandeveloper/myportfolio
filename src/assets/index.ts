@@ -44,7 +44,7 @@ import dawat from './project/dawat.png';
 import dairyfarm from './project/dairyfarm.png';
 import coaching from './project/coaching.png'
 // import ralconnect from './project/ralconnect.png'
-import ralconnectproject from './project/ralconnect.png'
+// import ralconnectproject from './project/ralconnect.png'
 export {
   logo,
   adz,
@@ -53,7 +53,7 @@ export {
   dairyfarm,
   tail,
   boots,
-  ralconnectproject,
+  // ralconnectproject,
   dawat,
   paragraph,
   nj,
