@@ -10,9 +10,11 @@ import type {
 import {
   mobile,
   backend,
+  ralconnect,
   creator,
   web,
   typescript,
+  coaching,
   reactjs,
   redux,
   // nextjs,
@@ -239,6 +241,96 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
+    name: 'Dairy Farm Management System',
+    description:
+      'A smart dairy farm management system  helps dairy owners manage cows, milk production, vaccination, and sales records efficiently. The system supports role-based access with a secure login and real-time data updates.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'yellow-text-gradient',
+      },
+      {
+        name: 'React Icons',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Vercel',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: dairyfarm, // replace with your project image import
+    sourceCodeLink: 'https://github.com/aliusmandeveloper/DairyForm-Management-System', // replace with your actual deployed link
+    liveDemoLink: 'https://dairy-form-management-system.vercel.app/',
+  },
+  {
+    name: 'Coaching Management Platform',
+    description:
+      'A full-stack web application built for managing coaching centers efficiently. It allows admins to manage courses, users, and content in real time with a modern and responsive interface. Integrated authentication, Redux-based state management, and Cloudinary for media storage ensure smooth user experience and dynamic data handling.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Express.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'MongoDB',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Redux Toolkit',
+        color: 'purple-text-gradient',
+      },
+      {
+        name: 'Cloudinary',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: coaching, // replace with your project image import
+    sourceCodeLink: '',
+    liveDemoLink: 'https://coachings-nextjs-vercel.vercel.app/',
+  },
+  {
+    name: 'RAL Connect',
+    description:
+      'A comprehensive multi-role web platform featuring separate dashboards for Superadmin, Admin, Vendor, Partner, Families, Nursing, and ALTS users. It implements robust role-based access control (RBAC) and dynamic UI routing to deliver personalized experiences for each user type.',
+    tags: [
+      {
+        name: 'React.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Loveable.io',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'REST APIs',
+        color: 'purple-text-gradient',
+      },
+      {
+        name: 'Vercel',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: ralconnect, // replace with your project image import
+    sourceCodeLink: '', // replace with actual repo link if available
+    liveDemoLink: 'https://ral-connect.vercel.app/',
+  },
+  {
     name: 'PARAGRAPH REWRITER',
     description:
       'Improve the Quality of Your Paragraphs With the Help of Our Free Paragraph Rewriter. Enjoy Our AI-Powered Rewriter With No Sign-Up or Registration.',
@@ -319,37 +411,6 @@ const projects: TProject[] = [
     image: calculator,
     sourceCodeLink: 'https://github.com/aliusmandeveloper/Google-calendar',
     liveDemoLink: 'https://google-calendar-green.vercel.app/',
-  },
-
-  {
-    name: 'Dairy Farm Management System',
-    description:
-      'A smart dairy farm management system  helps dairy owners manage cows, milk production, vaccination, and sales records efficiently. The system supports role-based access with a secure login and real-time data updates.',
-    tags: [
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Tailwind CSS',
-        color: 'yellow-text-gradient',
-      },
-      {
-        name: 'React Icons',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Vercel',
-        color: 'orange-text-gradient',
-      },
-    ],
-    image: dairyfarm, // replace with your project image import
-    sourceCodeLink: 'https://github.com/aliusmandeveloper/DairyForm-Management-System', // replace with your actual deployed link
-    liveDemoLink: 'https://dairy-form-management-system.vercel.app/',
   },
 ];
 
