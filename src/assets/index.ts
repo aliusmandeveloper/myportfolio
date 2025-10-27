@@ -43,6 +43,7 @@ import boots from './tech/boots.png';
 import dawat from './project/dawat.png';
 import dairyfarm from './project/dairyfarm.png';
 import coaching from './project/coaching.png'
+// import ralconnect from './project/ralconnect.png'
 import ralconnect from './project/ralconnect.png'
 export {
   logo,
