@@ -45,13 +45,18 @@ import dairyfarm from './project/dairyfarm.png';
 import coaching from './project/coaching.png'
 // import ralconnect from './project/ralconnect.png'
 // import ralconnectproject from './project/ralconnect.png'
+// import health from './project/health.png'
+import ralconnectproject from './project/ralconnectproject.png'
 export {
+
   logo,
   adz,
   vue,
   coaching,
+  // health,
   dairyfarm,
   tail,
+  ralconnectproject,
   boots,
   // ralconnectproject,
   dawat,
