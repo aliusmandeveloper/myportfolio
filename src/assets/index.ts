@@ -29,6 +29,7 @@ import shad from './tech/shad.png';
 import typescript from './tech/typescript.png';
 import vue from './vue.png';
 import java from './tech/java.png';
+import Saydaliyya from './project/Saydaliyya.jpg'
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import echoshope from './project/echoshope.jpg'
@@ -61,6 +62,7 @@ export {
   boots,
   // ralconnectproject,
   dawat,
+  Saydaliyya,
   paragraph,
   nj,
   love,

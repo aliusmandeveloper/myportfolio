@@ -84,14 +84,14 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <div className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}>
+      <div className={`flex flex-col-reverse gap-6 overflow-hidden xl:flex-row min-h-[70vh]`}>
         <motion.div
           variants={slideIn('left', 'tween', 0.2, 1)}
-          className="bg-black-100 flex-[0.75] rounded-2xl p-8"
+          className="bg-black-100 flex-[0.75] rounded-2xl p-6"
         >
           <Header useMotion={false} {...config.contact} />
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-8 flex flex-col gap-6">
             {Object.keys(config.contact.form).map(input => {
               const { span, placeholder } =
                 config.contact.form[input as keyof typeof config.contact.form];
@@ -99,15 +99,15 @@ const Contact: React.FC = () => {
 
               return (
                 <label key={input} className="flex flex-col">
-                  <span className="mb-4 font-medium text-white">{span}</span>
+                  <span className="mb-3 font-medium text-white">{span}</span>
                   <Component
                     type={input === 'email' ? 'email' : 'text'}
                     name={input}
                     value={form[input] ?? ''}
                     onChange={handleChange}
                     placeholder={placeholder}
-                    className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-6 py-4 font-medium text-white outline-none"
-                    {...(input === 'message' && { rows: 7 })}
+                    className="bg-tertiary placeholder:text-secondary rounded-lg border-none px-4 py-3 font-medium text-white outline-none text-sm"
+                    {...(input === 'message' && { rows: 4 })}
                   />
                 </label>
               );
@@ -115,14 +115,14 @@ const Contact: React.FC = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
+              className="bg-tertiary shadow-primary w-fit rounded-xl px-6 py-2 font-bold text-white shadow-md outline-none text-sm mt-2"
             >
               {loading ? 'Sending...' : 'Send'}
             </button>
           </form>
         </motion.div>
 
-        <motion.div
+         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
           className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1"
         >

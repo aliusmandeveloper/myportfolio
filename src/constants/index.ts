@@ -28,6 +28,7 @@ import {
   // tripguide,
   it,
   cyb,
+  Saydaliyya,
   softnixt,
   nj,
   java,
@@ -244,6 +245,36 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
+  name: 'Saydaliyya (E-Pharmacy)',
+  description:
+    'An AI-powered online pharmacy platform built with Next.js. Users can order medicines, upload prescriptions, and get automated medicine recognition using OCR (Tesseract.js). Includes a secure authentication system, email notifications, and an admin dashboard to manage users, orders, and medicines efficiently.',
+  tags: [
+    {
+      name: 'Next.js',
+      color: 'pink-text-gradient',
+    },
+    {
+      name: 'MongoDB',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'Tailwind CSS',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'Tesseract.js (AI OCR)',
+      color: 'purple-text-gradient',
+    },
+    {
+      name: 'NodeMailer',
+      color: 'orange-text-gradient',
+    },
+  ],
+  image: Saydaliyya, 
+  sourceCodeLink: 'https://github.com/aliusmandeveloper/Saydaliyya-E-Pharmacy-', 
+  liveDemoLink: 'https://saydaliyya-e-pharmacy.vercel.app/login', 
+},
+  {
     name: 'Dairy Farm Management System',
     description:
       'A smart dairy farm management system  helps dairy owners manage cows, milk production, vaccination, and sales records efficiently. The system supports role-based access with a secure login and real-time data updates.',
@@ -273,6 +304,66 @@ const projects: TProject[] = [
     sourceCodeLink: 'https://github.com/aliusmandeveloper/DairyForm-Management-System', // replace with your actual deployed link
     liveDemoLink: 'https://dairy-form-management-system.vercel.app/',
   },
+    {
+    name: 'Coaching Management Platform',
+    description:
+      'A full-stack web application built for managing coaching centers efficiently. It allows admins to manage courses, users, and content in real time with a modern and responsive interface. Integrated authentication, Redux-based state management, and Cloudinary for media storage ensure smooth user experience and dynamic data handling.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Express.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'MongoDB',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Redux Toolkit',
+        color: 'purple-text-gradient',
+      },
+      {
+        name: 'Cloudinary',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: coaching, // replace with your project image import
+    sourceCodeLink: '',
+    liveDemoLink: 'https://coachings-nextjs-vercel.vercel.app/',
+  },
+   {
+  name: 'Echo Shop',
+  description:
+    'A modern eCommerce platform built with Next.js featuring a sleek UI, product listings, and a full admin dashboard for product, user, and order management. Includes dark/light theme toggling and interactive product promotions for a dynamic shopping experience.',
+  tags: [
+    {
+      name: 'Next.js',
+      color: 'pink-text-gradient',
+    },
+    {
+      name: 'Tailwind CSS',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'React Icons',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'Framer Motion',
+      color: 'yellow-text-gradient',
+    },
+    {
+      name: 'Vercel',
+      color: 'orange-text-gradient',
+    },
+  ],
+  image: echoshope, // replace with your project image import
+  sourceCodeLink: 'https://github.com/aliusmandeveloper/E-commerce-Echo-Shop', // your repo link
+  liveDemoLink: 'https://e-commerce-echo-shop.vercel.app/', // replace with your deployed site link if available
+},
    {
     name: 'PARAGRAPH REWRITER',
     description:
@@ -355,36 +446,7 @@ const projects: TProject[] = [
     sourceCodeLink: 'https://github.com/aliusmandeveloper/Google-calendar',
     liveDemoLink: 'https://google-calendar-green.vercel.app/',
   },
-  {
-    name: 'Coaching Management Platform',
-    description:
-      'A full-stack web application built for managing coaching centers efficiently. It allows admins to manage courses, users, and content in real time with a modern and responsive interface. Integrated authentication, Redux-based state management, and Cloudinary for media storage ensure smooth user experience and dynamic data handling.',
-    tags: [
-      {
-        name: 'Next.js',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Express.js',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'MongoDB',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Redux Toolkit',
-        color: 'purple-text-gradient',
-      },
-      {
-        name: 'Cloudinary',
-        color: 'orange-text-gradient',
-      },
-    ],
-    image: coaching, // replace with your project image import
-    sourceCodeLink: '',
-    liveDemoLink: 'https://coachings-nextjs-vercel.vercel.app/',
-  },
+
   {
     name: 'RAL Connect',
     description:
@@ -416,38 +478,8 @@ const projects: TProject[] = [
     liveDemoLink: 'https://ral-connect.vercel.app/',
   },
 
-  {
-  name: 'Echo Shop',
-  description:
-    'A modern eCommerce platform built with Next.js featuring a sleek UI, product listings, and a full admin dashboard for product, user, and order management. Includes dark/light theme toggling and interactive product promotions for a dynamic shopping experience.',
-  tags: [
-    {
-      name: 'Next.js',
-      color: 'pink-text-gradient',
-    },
-    {
-      name: 'Tailwind CSS',
-      color: 'green-text-gradient',
-    },
-    {
-      name: 'React Icons',
-      color: 'blue-text-gradient',
-    },
-    {
-      name: 'Framer Motion',
-      color: 'yellow-text-gradient',
-    },
-    {
-      name: 'Vercel',
-      color: 'orange-text-gradient',
-    },
-  ],
-  image: echoshope, // replace with your project image import
-  sourceCodeLink: 'https://github.com/aliusmandeveloper/E-commerce-Echo-Shop', // your repo link
-  liveDemoLink: 'https://e-commerce-echo-shop.vercel.app/', // replace with your deployed site link if available
-}
-
  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
