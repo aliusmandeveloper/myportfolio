@@ -31,6 +31,7 @@ import vue from './vue.png';
 import java from './tech/java.png';
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
+import echoshope from './project/echoshope.jpg'
 import starbucks from './company/starbucks.png';
 import tesla from './company/v3.png';
 import cb from './company/cb.png';
@@ -90,6 +91,7 @@ export {
   meta,
   shopify,
   starbucks,
+  echoshope,
   tesla,
   cb,
   it,

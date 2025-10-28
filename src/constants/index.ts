@@ -14,6 +14,7 @@ import {
   creator,
   web,
   typescript,
+  echoshope,
   coaching,
   
   reactjs,
@@ -414,6 +415,38 @@ const projects: TProject[] = [
     sourceCodeLink: '', // replace with actual repo link if available
     liveDemoLink: 'https://ral-connect.vercel.app/',
   },
+
+  {
+  name: 'Echo Shop',
+  description:
+    'A modern eCommerce platform built with Next.js featuring a sleek UI, product listings, and a full admin dashboard for product, user, and order management. Includes dark/light theme toggling and interactive product promotions for a dynamic shopping experience.',
+  tags: [
+    {
+      name: 'Next.js',
+      color: 'pink-text-gradient',
+    },
+    {
+      name: 'Tailwind CSS',
+      color: 'green-text-gradient',
+    },
+    {
+      name: 'React Icons',
+      color: 'blue-text-gradient',
+    },
+    {
+      name: 'Framer Motion',
+      color: 'yellow-text-gradient',
+    },
+    {
+      name: 'Vercel',
+      color: 'orange-text-gradient',
+    },
+  ],
+  image: echoshope, // replace with your project image import
+  sourceCodeLink: 'https://github.com/aliusmandeveloper/E-commerce-Echo-Shop', // your repo link
+  liveDemoLink: 'https://e-commerce-echo-shop.vercel.app/', // replace with your deployed site link if available
+}
+
  
 ];
 

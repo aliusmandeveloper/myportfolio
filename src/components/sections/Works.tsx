@@ -1,8 +1,10 @@
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
-import { github } from '../../assets';
+// import { github } from '../../assets';
 import { SectionWrapper } from '../../hoc';
+import { FaGithub } from 'react-icons/fa';
+
 import { projects } from '../../constants';
 import { fadeIn } from '../../utils/motion';
 import { config } from '../../constants/config';
@@ -44,10 +46,10 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
             <div className="absolute inset-0 flex justify-between items-start p-3">
               {/* View Code Button - Left Side */}
               <button
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-black/70 backdrop-blur-sm border border-gray-600 hover:bg-gray-800 hover:border-gray-400 transition-all duration-300 transform hover:scale-110 group/btn"
+                className="relative flex items-center justify-center w-10 h-10 rounded-full bg-black/70 backdrop-blur-sm border border-gray-600 hover:bg-gray-800 hover:border-gray-400 transition-all duration-300 transform hover:scale-110 group/btn"
                 onClick={() => window.open(sourceCodeLink, '_blank')}
               >
-                <img src={github} alt="github" className="w-5 h-5" />
+                <FaGithub className="w-5 h-5 text-white" />
                 <span className="absolute -bottom-8 left-0 opacity-0 group-hover/btn:opacity-100 text-white text-xs bg-black/80 px-2 py-1 rounded transition-all duration-300 whitespace-nowrap">
                   View Code
                 </span>
