@@ -19,6 +19,14 @@
   display: block;
 }
 
+/* Ensure anchor offset accounts for taller fixed navbar on small screens */
+@media (max-width: 640px) {
+  .hash-span {
+    margin-top: -140px;
+    padding-bottom: 140px;
+  }
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

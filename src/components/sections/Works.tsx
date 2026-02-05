@@ -20,27 +20,29 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   image,
   sourceCodeLink,
   liveDemoLink, // Add this prop for demo link
-} ) => {
+}) => {
   const [isMobile, setIsMobile] = useState(false);
 
-useEffect(() => {
-  setIsMobile(window.innerWidth < 768);
-}, []);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} className="w-full h-full">
-    <Tilt
-  glareEnable={!isMobile}
-  tiltEnable={!isMobile}
-  tiltMaxAngleX={10}
-  tiltMaxAngleY={10}
-  scale={isMobile ? 1 : 1.02}
-  transitionSpeed={2000}
->
-
-        <div className="bg-tertiary w-full rounded-2xl p-5 h-full min-h-[420px] sm:min-h-[480px] flex flex-col border border-gray-700 hover:border-gray-500 transition-all duration-300 shadow-lg hover:shadow-xl">
+      <Tilt
+        glareEnable={!isMobile}
+        tiltEnable={!isMobile}
+        tiltMaxAngleX={10}
+        tiltMaxAngleY={10}
+        scale={isMobile ? 1 : 1.02}
+        transitionSpeed={2000}
+      >
+        <div className="bg-tertiary w-full rounded-2xl p-5 h-full min-h-[320px] sm:min-h-[420px] md:min-h-[480px] flex flex-col border border-gray-700 hover:border-gray-500 transition-all duration-300 shadow-lg hover:shadow-xl">
           {/* Image Container */}
-          <div className="relative h-48 w-full mb-4 group overflow-hidden rounded-xl">
+          <div className="relative h-36 sm:h-48 w-full mb-4 group overflow-hidden rounded-xl">
             <img
               src={image}
               alt={name}
@@ -129,8 +131,7 @@ const Works = () => {
       </div>
 
       {/* Projects Grid - 3 cards per row */}
-     <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 auto-rows-fr px-2 sm:px-4">
-
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 auto-rows-fr px-2 sm:px-4">
         {projects &&
           projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
