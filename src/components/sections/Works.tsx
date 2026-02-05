@@ -10,7 +10,7 @@ import { fadeIn } from '../../utils/motion';
 import { config } from '../../constants/config';
 import { Header } from '../atoms/Header';
 import { TProject } from '../../types';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const ProjectCard: React.FC<{ index: number } & TProject> = ({
   index,
@@ -20,20 +20,25 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   image,
   sourceCodeLink,
   liveDemoLink, // Add this prop for demo link
-}) => {
+} ) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+useEffect(() => {
+  setIsMobile(window.innerWidth < 768);
+}, []);
+
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} className="w-full h-full">
-      <Tilt
-        glareEnable
-        tiltEnable
-        tiltMaxAngleX={10}
-        tiltMaxAngleY={10}
-        glareColor="#aaa6c3"
-        glareMaxOpacity={0.2}
-        scale={1.02}
-        transitionSpeed={2000}
-      >
-        <div className="bg-tertiary w-full rounded-2xl p-5 h-full min-h-[500px] flex flex-col border border-gray-700 hover:border-gray-500 transition-all duration-300 shadow-lg hover:shadow-xl">
+    <Tilt
+  glareEnable={!isMobile}
+  tiltEnable={!isMobile}
+  tiltMaxAngleX={10}
+  tiltMaxAngleY={10}
+  scale={isMobile ? 1 : 1.02}
+  transitionSpeed={2000}
+>
+
+        <div className="bg-tertiary w-full rounded-2xl p-5 h-full min-h-[420px] sm:min-h-[480px] flex flex-col border border-gray-700 hover:border-gray-500 transition-all duration-300 shadow-lg hover:shadow-xl">
           {/* Image Container */}
           <div className="relative h-48 w-full mb-4 group overflow-hidden rounded-xl">
             <img
@@ -50,7 +55,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 onClick={() => window.open(sourceCodeLink, '_blank')}
               >
                 <FaGithub className="w-5 h-5 text-white" />
-                <span className="absolute -bottom-8 left-0 opacity-0 group-hover/btn:opacity-100 text-white text-xs bg-black/80 px-2 py-1 rounded transition-all duration-300 whitespace-nowrap">
+                <span className="absolute -bottom-8 left-0 opacity-0  md:group-hover/btn:opacity-100 text-white text-xs bg-black/80 px-2 py-1 rounded transition-all duration-300 whitespace-nowrap">
                   View Code
                 </span>
               </button>
@@ -124,7 +129,8 @@ const Works = () => {
       </div>
 
       {/* Projects Grid - 3 cards per row */}
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 auto-rows-fr">
+     <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 auto-rows-fr px-2 sm:px-4">
+
         {projects &&
           projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
