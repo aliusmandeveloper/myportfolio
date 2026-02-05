@@ -14,18 +14,19 @@
 }
 
 .hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
+  /* account for the fixed navbar and iPhone notch */
+  margin-top: calc(-100px - env(safe-area-inset-top));
+  padding-bottom: calc(100px + env(safe-area-inset-top));
   display: block;
 }
 
 /* Ensure anchor offset accounts for taller fixed navbar on small screens */
 @media (max-width: 640px) {
   .hash-span {
-    margin-top: -140px;
-    padding-bottom: 140px;
+    margin-top: calc(-140px - env(safe-area-inset-top));
+    padding-bottom: calc(140px + env(safe-area-inset-top));
   }
-}
+} 
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
