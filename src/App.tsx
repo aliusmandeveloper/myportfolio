@@ -30,6 +30,7 @@ const App = () => {
           <Hero />
         </div>
         {/* <ToastContainer /> */}
+        
         <About />
         <Experience />
         <Tech />
